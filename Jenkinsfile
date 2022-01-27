@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('Cambio de rama') {
           steps {
-            sh 'git checkout answer4'
+            sh 'git switch answer4'
           }
         }
 
